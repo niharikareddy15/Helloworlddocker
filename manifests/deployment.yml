@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: niharikareddyhelloworlddocker 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: niharikareddyhelloworlddocker
+  template:
+    metadata:
+      labels:
+        app: niharikareddyhelloworlddocker 
+    spec:
+      containers:
+        - name: niharikareddyhelloworlddocker 
+          image: helloworld15.azurecr.io/niharikareddyhelloworlddocker
+          ports:
+          - containerPort: 80
