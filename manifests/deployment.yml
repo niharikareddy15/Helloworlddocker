@@ -16,4 +16,4 @@ spec:
         - name: niharikareddyhelloworlddocker 
           image: helloworld15.azurecr.io/niharikareddyhelloworlddocker
           ports:
-          - containerPort: 80
+          - containerPort: 8080
