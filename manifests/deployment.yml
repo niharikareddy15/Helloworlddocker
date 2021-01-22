@@ -17,3 +17,4 @@ spec:
           image: helloworld15.azurecr.io/niharikareddyhelloworlddocker
           ports:
           - containerPort: 8080
+            hostPort: 8080
